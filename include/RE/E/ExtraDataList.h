@@ -133,7 +133,7 @@ namespace RE
 		using iterator = iterator_base<BSExtraData>;
 		using const_iterator = iterator_base<const BSExtraData>;
 
-		ExtraDataList();
+		ExtraDataList() = default;
 		~ExtraDataList();
 
 		TES_HEAP_REDEFINE_NEW();

@@ -55,12 +55,6 @@ namespace RE
 			}
 		}
 
-		template <class SinkEvent>
-		inline void AddEventSink(BSTEventSink<SinkEvent>* a_sink)
-		{
-			AddEventSink(a_sink);
-		}
-
 		void RemoveEventSink(Sink* a_eventSink)
 		{
 			if (!a_eventSink) {

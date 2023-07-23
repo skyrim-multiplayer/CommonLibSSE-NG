@@ -30,7 +30,7 @@ namespace RE
 			std::uint8_t                    pad3D;               // 3D
 			std::uint16_t                   pad3E;               // 3E
 
-			//Variable args[4];	40 - minimum space for 4 args is allocated
+			Variable args[0];	// 40 // minimum space for 4 args is allocated
 		};
 		static_assert(sizeof(StackFrame) == 0x40);  // frames can be larger
 	}
